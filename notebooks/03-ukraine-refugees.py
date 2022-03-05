@@ -25,7 +25,7 @@ with urllib.request.urlopen(locations_url) as url:
 
 locations_df = (
     pd.DataFrame(locations["data"])
-    .rename(columns={"geomaster_name": "country", "geomaster_id": "id"})
+    .rename(columns={"geomaster_name": "country", "geomaster_id": "id", "centroid_lon":"longitude","centroid_lat":"latitude"})
     .drop(
         [
             "admin_level",
