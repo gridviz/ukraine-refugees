@@ -1,2 +1,2 @@
 # Ukraine Refugees
-Tracking [data](https://data2.unhcr.org/en/situations/ukraine) from the United Nations High Commissioner for Refugees
+Using GitHub Actions to scrape [data](https://data2.unhcr.org/en/situations/ukraine) from the United Nations High Commissioner for Refugees. The script runs twice a day, outputing CSVs that details refugees counts by [day](https://github.com/gridviz/ukraine-refugees/blob/main/data/processed/ukraine_refugees_totals_timeseries.csv) and [country](https://github.com/gridviz/ukraine-refugees/blob/main/data/processed/ukraine_refugees_totals_countries.csv). 
