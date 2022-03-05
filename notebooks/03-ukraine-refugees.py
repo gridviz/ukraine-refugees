@@ -37,7 +37,6 @@ locations_df = (
             "households",
             "population_groups",
             "color",
-            "published",
             "lat_max",
             "lon_max",
             "lat_min",
