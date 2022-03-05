@@ -48,5 +48,5 @@ locations_df = (
 
 ## Exports
 
-total_df.to_csv("../data/processed/ukraine_refugees_totals_timeseries.csv", index=False)
-locations_df.to_csv("../data/processed/ukraine_refugees_totals_countries.csv", index=False)
+total_df.to_csv("data/processed/ukraine_refugees_totals_timeseries.csv", index=False)
+locations_df.to_csv("data/processed/ukraine_refugees_totals_countries.csv", index=False)
