@@ -1,5 +1,5 @@
 country,id,longitude,latitude,date,month,year,individuals,published,numChildren
-Poland,10781,19.4013,52.1224,2022-03-16,3,2022,1916445,False,0
+Poland,10781,19.4013,52.1224,2022-03-16,3,2022,1916445,True,0
 Republic of Moldova,10784,28.4646,47.1976,2022-03-16,3,2022,350886,False,0
 Hungary,10783,19.4131,47.1672,2022-03-16,3,2022,282611,False,0
 Slovakia,10785,19.4864,48.7062,2022-03-16,3,2022,228844,False,0
