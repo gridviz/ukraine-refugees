@@ -46,7 +46,19 @@ locations_df = (
     )
 )
 
-## Exports
+## Calculate share of refugees in each place
+
+locations_df["individuals"] = locations_df["individuals"].astype(int)
+
+locations_df["share"] = (
+    locations_df["individuals"] / locations_df["individuals"].sum() * 100
+).round(2)
+
+locations_df["display_date"] = pd.to_datetime(locations_df["date"]).dt.strftime(
+    "%b. %-d "
+)
+
+## Export data files
 
 total_df.to_csv("data/processed/ukraine_refugees_totals_timeseries.csv", index=False)
 locations_df.to_csv("data/processed/ukraine_refugees_totals_countries.csv", index=False)
