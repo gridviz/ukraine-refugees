@@ -1,7 +1,7 @@
 country,id,longitude,latitude,date,month,year,individuals,published,numChildren,share,display_date
 Poland,10781,19.4013,52.1224,2022-04-25,4,2022,2922978,True,0,55.52,Apr. 25 
 Russian Federation,10791,38.1556078125,51.488850139616,2022-04-25,4,2022,614318,False,0,11.67,Apr. 25 
-Hungary,10783,19.4131,47.1672,2022-04-25,4,2022,496914,False,0,9.44,Apr. 25 
+Hungary,10783,19.4131,47.1672,2022-04-25,4,2022,496914,True,0,9.44,Apr. 25 
 Republic of Moldova,10784,28.4646,47.1976,2022-04-25,4,2022,435275,True,0,8.27,Apr. 25 
 Romania,10782,25.3,45.8667,2022-04-25,4,2022,413144,False,0,7.85,Apr. 25 
 Slovakia,10785,19.4864,48.7062,2022-04-25,4,2022,357560,False,0,6.79,Apr. 25 
